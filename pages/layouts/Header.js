@@ -4,7 +4,7 @@ import Link from "next/link"
 function Header() {
   return (
     <div className="header">
-      <a href="#default" class="logo">
+      <a href="#default" className="logo">
               CompanyLogo
           </a>
           <div className="header-right">
