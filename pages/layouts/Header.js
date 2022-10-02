@@ -5,15 +5,12 @@ function Header() {
   return (
     <div className="header">
       <a href="#default" class="logo">
-        CompanyLogo
-      </a>
+              CompanyLogo
+          </a>
           <div className="header-right">
-              <Link href="/">Home</Link>
-        <a class="active" href="#home">
-          Home
-        </a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+              <Link className="active" href="/">Home</Link>
+              <Link href="/user">User</Link>
+              <Link href="/test-sayfasi">Test Sayfası</Link>
       </div>
     </div>
   );
