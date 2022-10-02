@@ -10,7 +10,7 @@ function Header() {
           <div className="header-right">
               <Link className="active" href="/">Home</Link>
               <Link href="/user">User</Link>
-              <Link href="/test-sayfasi">Test Sayfası</Link>
+              <Link href="/test-page">Test</Link>
       </div>
     </div>
   );
